@@ -1,0 +1,1306 @@
+{
+  "entity": {
+    "name": "dog",
+    "position": {
+      "left": 0.2955957055091858,
+      "top": 0.21382078528404236,
+      "right": 0.5304750800132751,
+      "bottom": 0.995754599571228
+    },
+    "frames": [
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2955957055091858,
+          "top": 0.21382078528404236,
+          "right": 0.5304750800132751,
+          "bottom": 0.995754599571228
+        },
+        "timeOffset": {}
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2940942645072937,
+          "top": 0.20003920793533325,
+          "right": 0.5193698406219482,
+          "bottom": 0.9897618293762207
+        },
+        "timeOffset": {
+          "nanos": 120000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28739720582962036,
+          "top": 0.1841440498828888,
+          "right": 0.5261957049369812,
+          "bottom": 0.9930219650268555
+        },
+        "timeOffset": {
+          "nanos": 240000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.286030113697052,
+          "top": 0.1762741357088089,
+          "right": 0.5326107144355774,
+          "bottom": 0.9899033308029175
+        },
+        "timeOffset": {
+          "nanos": 360000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2849232256412506,
+          "top": 0.17084938287734985,
+          "right": 0.5279592275619507,
+          "bottom": 0.9874438643455505
+        },
+        "timeOffset": {
+          "nanos": 480000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2807590663433075,
+          "top": 0.1683897078037262,
+          "right": 0.5289382338523865,
+          "bottom": 0.9907572269439697
+        },
+        "timeOffset": {
+          "nanos": 600000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28058016300201416,
+          "top": 0.16332371532917023,
+          "right": 0.5318686962127686,
+          "bottom": 0.9944334626197815
+        },
+        "timeOffset": {
+          "nanos": 720000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28503793478012085,
+          "top": 0.16865985095500946,
+          "right": 0.5311561226844788,
+          "bottom": 0.9881647229194641
+        },
+        "timeOffset": {
+          "nanos": 840000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28626176714897156,
+          "top": 0.16513605415821075,
+          "right": 0.5331463813781738,
+          "bottom": 0.9921051859855652
+        },
+        "timeOffset": {
+          "nanos": 960000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28865352272987366,
+          "top": 0.17034706473350525,
+          "right": 0.5452865362167358,
+          "bottom": 0.9886782169342041
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 80000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2916208803653717,
+          "top": 0.17284716665744781,
+          "right": 0.5479062795639038,
+          "bottom": 0.9928240180015564
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 200000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29976221919059753,
+          "top": 0.1769355684518814,
+          "right": 0.5507280826568604,
+          "bottom": 0.9944242835044861
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 320000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3091581165790558,
+          "top": 0.18441441655158997,
+          "right": 0.5507314205169678,
+          "bottom": 0.9938207864761353
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 440000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.31372684240341187,
+          "top": 0.1867447942495346,
+          "right": 0.5560651421546936,
+          "bottom": 0.993092954158783
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 560000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3136851489543915,
+          "top": 0.19130726158618927,
+          "right": 0.5553123354911804,
+          "bottom": 0.9926526546478271
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 680000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.31690719723701477,
+          "top": 0.19606080651283264,
+          "right": 0.5543308258056641,
+          "bottom": 0.993583083152771
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 800000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3164587616920471,
+          "top": 0.19958513975143433,
+          "right": 0.5509399771690369,
+          "bottom": 0.9962121844291687
+        },
+        "timeOffset": {
+          "seconds": "1",
+          "nanos": 920000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3091316223144531,
+          "top": 0.19992123544216156,
+          "right": 0.5459442734718323,
+          "bottom": 0.9981338977813721
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 40000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.30390477180480957,
+          "top": 0.20500756800174713,
+          "right": 0.5390663146972656,
+          "bottom": 0.9969264268875122
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 160000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29686295986175537,
+          "top": 0.2088804692029953,
+          "right": 0.537126362323761,
+          "bottom": 0.9951041340827942
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 280000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29476290941238403,
+          "top": 0.2095080316066742,
+          "right": 0.5316985845565796,
+          "bottom": 0.9954432249069214
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 400000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.290536105632782,
+          "top": 0.21256045997142792,
+          "right": 0.5314476490020752,
+          "bottom": 0.9909594655036926
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 520000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28851452469825745,
+          "top": 0.20770493149757385,
+          "right": 0.531168520450592,
+          "bottom": 0.9909199476242065
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 640000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29096874594688416,
+          "top": 0.20432183146476746,
+          "right": 0.5290491580963135,
+          "bottom": 0.9936726093292236
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 760000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29027268290519714,
+          "top": 0.20861774682998657,
+          "right": 0.5321228504180908,
+          "bottom": 0.9897846579551697
+        },
+        "timeOffset": {
+          "seconds": "2",
+          "nanos": 880000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29026898741722107,
+          "top": 0.20042504370212555,
+          "right": 0.5290102958679199,
+          "bottom": 0.9948687553405762
+        },
+        "timeOffset": {
+          "seconds": "3"
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2902700901031494,
+          "top": 0.18907159566879272,
+          "right": 0.5266528129577637,
+          "bottom": 1.0006746053695679
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 120000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29395925998687744,
+          "top": 0.18966111540794373,
+          "right": 0.5228104591369629,
+          "bottom": 0.9991966485977173
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 240000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28992846608161926,
+          "top": 0.1753968447446823,
+          "right": 0.5296915769577026,
+          "bottom": 1.0023311376571655
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 360000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28461262583732605,
+          "top": 0.15851683914661407,
+          "right": 0.5361863374710083,
+          "bottom": 1.0000519752502441
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 480000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2865793704986572,
+          "top": 0.16118758916854858,
+          "right": 0.5410604476928711,
+          "bottom": 0.9881998896598816
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 600000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2941482961177826,
+          "top": 0.16361822187900543,
+          "right": 0.5396718978881836,
+          "bottom": 0.9885648488998413
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 720000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.30079323053359985,
+          "top": 0.16655398905277252,
+          "right": 0.5420470237731934,
+          "bottom": 0.9883567690849304
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 840000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3056301772594452,
+          "top": 0.16948089003562927,
+          "right": 0.5476853251457214,
+          "bottom": 0.9901918172836304
+        },
+        "timeOffset": {
+          "seconds": "3",
+          "nanos": 960000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.313836932182312,
+          "top": 0.16455647349357605,
+          "right": 0.5447776317596436,
+          "bottom": 0.9960510730743408
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 80000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.31572097539901733,
+          "top": 0.16616404056549072,
+          "right": 0.5486676096916199,
+          "bottom": 0.9950507879257202
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 200000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3185930550098419,
+          "top": 0.16406308114528656,
+          "right": 0.5514402389526367,
+          "bottom": 0.9956215023994446
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 320000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3200373351573944,
+          "top": 0.16322556138038635,
+          "right": 0.550025463104248,
+          "bottom": 0.997096061706543
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 440000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.320174902677536,
+          "top": 0.16312474012374878,
+          "right": 0.5485023856163025,
+          "bottom": 0.9968558549880981
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 560000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.31722795963287354,
+          "top": 0.1660454273223877,
+          "right": 0.5497824549674988,
+          "bottom": 0.9929080605506897
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 680000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.31187617778778076,
+          "top": 0.16586104035377502,
+          "right": 0.5533097982406616,
+          "bottom": 0.9909355640411377
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 800000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3099682033061981,
+          "top": 0.16687068343162537,
+          "right": 0.5495903491973877,
+          "bottom": 0.9919743537902832
+        },
+        "timeOffset": {
+          "seconds": "4",
+          "nanos": 920000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3053729832172394,
+          "top": 0.15970571339130402,
+          "right": 0.5440651774406433,
+          "bottom": 0.9938503503799438
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 40000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2952501177787781,
+          "top": 0.15555113554000854,
+          "right": 0.5418092012405396,
+          "bottom": 0.9938769340515137
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 160000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2887381911277771,
+          "top": 0.1507287323474884,
+          "right": 0.5351094007492065,
+          "bottom": 0.995080828666687
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 280000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2819480001926422,
+          "top": 0.15016144514083862,
+          "right": 0.5333036184310913,
+          "bottom": 0.9948819875717163
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 400000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2808297574520111,
+          "top": 0.15123984217643738,
+          "right": 0.5332212448120117,
+          "bottom": 0.9911072254180908
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 520000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.279485285282135,
+          "top": 0.15320704877376556,
+          "right": 0.5330175161361694,
+          "bottom": 0.9911488890647888
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 640000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28728964924812317,
+          "top": 0.1507549285888672,
+          "right": 0.5214335322380066,
+          "bottom": 0.9949487447738647
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 760000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28470197319984436,
+          "top": 0.14979246258735657,
+          "right": 0.5222584009170532,
+          "bottom": 0.9920495748519897
+        },
+        "timeOffset": {
+          "seconds": "5",
+          "nanos": 880000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28451529145240784,
+          "top": 0.14443998038768768,
+          "right": 0.5221363306045532,
+          "bottom": 0.9931191802024841
+        },
+        "timeOffset": {
+          "seconds": "6"
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28319552540779114,
+          "top": 0.14250080287456512,
+          "right": 0.5205484628677368,
+          "bottom": 0.9920603632926941
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 120000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.27629464864730835,
+          "top": 0.13491196930408478,
+          "right": 0.5239195823669434,
+          "bottom": 0.9971297979354858
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 240000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28098952770233154,
+          "top": 0.14659665524959564,
+          "right": 0.5204665064811707,
+          "bottom": 0.9932385683059692
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 360000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2869623303413391,
+          "top": 0.15135636925697327,
+          "right": 0.5154815912246704,
+          "bottom": 0.9896131753921509
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 480000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2865622043609619,
+          "top": 0.1548313945531845,
+          "right": 0.5175091624259949,
+          "bottom": 0.9957115054130554
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 600000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2845461964607239,
+          "top": 0.15670442581176758,
+          "right": 0.518086314201355,
+          "bottom": 0.9984616041183472
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 720000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28532424569129944,
+          "top": 0.16288191080093384,
+          "right": 0.515869140625,
+          "bottom": 0.9953102469444275
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 840000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28300026059150696,
+          "top": 0.16024930775165558,
+          "right": 0.5183715224266052,
+          "bottom": 0.99663245677948
+        },
+        "timeOffset": {
+          "seconds": "6",
+          "nanos": 960000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2797997295856476,
+          "top": 0.15188860893249512,
+          "right": 0.5212020874023438,
+          "bottom": 0.9976422190666199
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 80000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2775004208087921,
+          "top": 0.14156337082386017,
+          "right": 0.5276252031326294,
+          "bottom": 0.9989956617355347
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 200000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28016188740730286,
+          "top": 0.14019466936588287,
+          "right": 0.5320115089416504,
+          "bottom": 0.997122049331665
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 320000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.28636473417282104,
+          "top": 0.14558541774749756,
+          "right": 0.5354214906692505,
+          "bottom": 0.996573269367218
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 440000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2862589955329895,
+          "top": 0.1471208781003952,
+          "right": 0.5374860763549805,
+          "bottom": 0.9917418956756592
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 560000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2884409725666046,
+          "top": 0.1523723304271698,
+          "right": 0.5389461517333984,
+          "bottom": 0.9910248517990112
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 680000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2808469235897064,
+          "top": 0.14024730026721954,
+          "right": 0.5461667776107788,
+          "bottom": 0.9963231682777405
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 800000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2882658541202545,
+          "top": 0.14502400159835815,
+          "right": 0.5414273738861084,
+          "bottom": 0.9920101761817932
+        },
+        "timeOffset": {
+          "seconds": "7",
+          "nanos": 920000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29241040349006653,
+          "top": 0.14491817355155945,
+          "right": 0.5369395017623901,
+          "bottom": 0.9939026832580566
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 40000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29668474197387695,
+          "top": 0.14800842106342316,
+          "right": 0.5352823138237,
+          "bottom": 0.9917406439781189
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 160000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.29592108726501465,
+          "top": 0.14215382933616638,
+          "right": 0.5375790596008301,
+          "bottom": 0.992172122001648
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 280000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.2978878617286682,
+          "top": 0.14420537650585175,
+          "right": 0.5407425165176392,
+          "bottom": 0.9880708456039429
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 400000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.302909791469574,
+          "top": 0.14137545228004456,
+          "right": 0.5361002683639526,
+          "bottom": 0.9866496324539185
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 520000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.30243033170700073,
+          "top": 0.13734526932239532,
+          "right": 0.5392829775810242,
+          "bottom": 0.9909864068031311
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 640000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3054627478122711,
+          "top": 0.1346028596162796,
+          "right": 0.536942183971405,
+          "bottom": 0.9938860535621643
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 760000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3053232729434967,
+          "top": 0.13234415650367737,
+          "right": 0.5423824787139893,
+          "bottom": 0.9960588216781616
+        },
+        "timeOffset": {
+          "seconds": "8",
+          "nanos": 880000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3090829849243164,
+          "top": 0.13680510222911835,
+          "right": 0.5410181283950806,
+          "bottom": 0.9937080144882202
+        },
+        "timeOffset": {
+          "seconds": "9"
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3084697127342224,
+          "top": 0.13895103335380554,
+          "right": 0.5403453707695007,
+          "bottom": 0.991423487663269
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 120000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3138262927532196,
+          "top": 0.13686023652553558,
+          "right": 0.5403416156768799,
+          "bottom": 0.9921550750732422
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 240000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.31826475262641907,
+          "top": 0.13461421430110931,
+          "right": 0.5410472750663757,
+          "bottom": 0.9948248863220215
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 360000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3214208483695984,
+          "top": 0.1372757852077484,
+          "right": 0.5479171276092529,
+          "bottom": 0.9924107789993286
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 480000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3282129764556885,
+          "top": 0.13441479206085205,
+          "right": 0.5516303777694702,
+          "bottom": 0.9901912808418274
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 600000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3310295045375824,
+          "top": 0.12842203676700592,
+          "right": 0.5598375797271729,
+          "bottom": 0.9928573369979858
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 720000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33747929334640503,
+          "top": 0.13123419880867004,
+          "right": 0.5626375675201416,
+          "bottom": 0.9907455444335938
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 840000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3381319046020508,
+          "top": 0.12778037786483765,
+          "right": 0.5686358213424683,
+          "bottom": 0.9949612617492676
+        },
+        "timeOffset": {
+          "seconds": "9",
+          "nanos": 960000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33948925137519836,
+          "top": 0.1332375556230545,
+          "right": 0.5695079565048218,
+          "bottom": 0.9932692050933838
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 80000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33729642629623413,
+          "top": 0.13781924545764923,
+          "right": 0.571130096912384,
+          "bottom": 0.9940748810768127
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 200000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3338289260864258,
+          "top": 0.14198337495326996,
+          "right": 0.5723177194595337,
+          "bottom": 0.990971028804779
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 320000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33299726247787476,
+          "top": 0.14362844824790955,
+          "right": 0.5727257132530212,
+          "bottom": 0.9921319484710693
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 440000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3340141475200653,
+          "top": 0.14445632696151733,
+          "right": 0.5718426704406738,
+          "bottom": 0.9982956051826477
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 560000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33400166034698486,
+          "top": 0.1429891586303711,
+          "right": 0.5726493000984192,
+          "bottom": 0.9991304874420166
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 680000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33525440096855164,
+          "top": 0.1525302529335022,
+          "right": 0.5739539861679077,
+          "bottom": 0.9962792992591858
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 800000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.33720049262046814,
+          "top": 0.14836692810058594,
+          "right": 0.5801880955696106,
+          "bottom": 1.0008609294891357
+        },
+        "timeOffset": {
+          "seconds": "10",
+          "nanos": 920000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3482433259487152,
+          "top": 0.1481730043888092,
+          "right": 0.5771255493164062,
+          "bottom": 0.999839186668396
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 40000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.34981146454811096,
+          "top": 0.14800021052360535,
+          "right": 0.5840428471565247,
+          "bottom": 0.9984431266784668
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 160000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.35773348808288574,
+          "top": 0.15753372013568878,
+          "right": 0.5819355845451355,
+          "bottom": 0.9974711537361145
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 280000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3612767457962036,
+          "top": 0.16289007663726807,
+          "right": 0.5827280282974243,
+          "bottom": 0.9924134612083435
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 400000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3552305996417999,
+          "top": 0.16212168335914612,
+          "right": 0.5861979126930237,
+          "bottom": 0.9962037801742554
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 520000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3558541536331177,
+          "top": 0.17070645093917847,
+          "right": 0.5865104794502258,
+          "bottom": 0.9954718351364136
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 640000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3560500741004944,
+          "top": 0.1741500347852707,
+          "right": 0.5825353264808655,
+          "bottom": 0.994856059551239
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 760000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3478798270225525,
+          "top": 0.17052550613880157,
+          "right": 0.5806140899658203,
+          "bottom": 0.9976322054862976
+        },
+        "timeOffset": {
+          "seconds": "11",
+          "nanos": 880000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3541977107524872,
+          "top": 0.17509877681732178,
+          "right": 0.5750073790550232,
+          "bottom": 0.9957557916641235
+        },
+        "timeOffset": {
+          "seconds": "12"
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3559563457965851,
+          "top": 0.17821085453033447,
+          "right": 0.5725041031837463,
+          "bottom": 0.9970349669456482
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 120000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3511817157268524,
+          "top": 0.17559704184532166,
+          "right": 0.5695768594741821,
+          "bottom": 1.0005295276641846
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 240000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.34531113505363464,
+          "top": 0.1762726753950119,
+          "right": 0.5711987614631653,
+          "bottom": 0.9979352355003357
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 360000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.34522774815559387,
+          "top": 0.17282700538635254,
+          "right": 0.5686929821968079,
+          "bottom": 1.000270128250122
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 480000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.34210026264190674,
+          "top": 0.16983327269554138,
+          "right": 0.5674136877059937,
+          "bottom": 0.9991441965103149
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 600000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3392650783061981,
+          "top": 0.1686236560344696,
+          "right": 0.566033661365509,
+          "bottom": 0.9982765913009644
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 720000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.339613676071167,
+          "top": 0.16729700565338135,
+          "right": 0.5659189224243164,
+          "bottom": 0.9946081042289734
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 840000000
+        }
+      },
+      {
+        "normalizedBoundingBox": {
+          "left": 0.3459915518760681,
+          "top": 0.15871618688106537,
+          "right": 0.569585919380188,
+          "bottom": 0.9995720982551575
+        },
+        "timeOffset": {
+          "seconds": "12",
+          "nanos": 960000000
+        }
+      }
+    ]
+  }
+}
