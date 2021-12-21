@@ -1,6 +1,16 @@
+import './../../assets/images/player_controls/play.svg';
+import './../../assets/images/player_controls/pause.svg';
+import './../../assets/images/player_controls/sound-on.svg';
+import './../../assets/images/player_controls/sound-off.svg';
+import './../../assets/images/player_controls/plus.svg';
+import './../../assets/images/player_controls/minus.svg';
+import './../../assets/images/player_controls/stop.svg';
+
 export class VideoPlayer {
     constructor({videoElement}) {
         this.video = videoElement;
+
+        this.init();
     }
 
     init() {
@@ -12,7 +22,8 @@ export class VideoPlayer {
         const video = this.video;
 
         // Display the user defined video controls
-        videoControls.style.display = 'block';
+        videoControls.style.display = 'flex';
+        video.playbackRate = 1.0;
 
         const playpause = document.getElementById('playpause');
         const stop = document.getElementById('stop');
@@ -21,28 +32,55 @@ export class VideoPlayer {
         const voldec = document.getElementById('voldec');
         const progress = document.getElementById('progress');
         const progressBar = document.getElementById('progress-bar');
-        const fullscreen = document.getElementById('fs');
+        const playbackRate = document.getElementById('playbackRate');
+        const playpauseImage = document.getElementById('playpause').firstChild;
+        const muteImage = document.getElementById('mute').firstChild;
 
         playpause.addEventListener('click', function (e) {
-            if (video.paused || video.ended) video.play();
-            else video.pause();
+            if (video.paused || video.ended) {
+                playpauseImage.src = 'pause.svg';
+                video.play();
+            } else {
+                playpauseImage.src = 'play.svg';
+                video.pause();
+            }
         });
 
         stop.addEventListener('click', function (e) {
             video.pause();
+            playpauseImage.src = 'play.svg';
             video.currentTime = 0;
             progress.value = 0;
         });
 
         mute.addEventListener('click', function (e) {
+            if (video.muted) {
+                muteImage.src = 'sound-on.svg';
+            } else {
+                muteImage.src = 'sound-off.svg';
+            }
+
             video.muted = !video.muted;
         });
 
         volinc.addEventListener('click', function (e) {
             alterVolume('+');
         });
+
         voldec.addEventListener('click', function (e) {
             alterVolume('-');
+        });
+
+        playbackRate.addEventListener('click', function (e) {
+            const currentPlaybackRate = video.playbackRate;
+            let newRate = currentPlaybackRate + 0.5 > 2.0 ? 0.5 : currentPlaybackRate + 0.5;
+
+            if (newRate.toString().length === 1) {
+                newRate = newRate + '.0';
+            }
+
+            video.playbackRate = newRate;
+            playbackRate.innerText = newRate;
         });
 
         const alterVolume = function (dir) {

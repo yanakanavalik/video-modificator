@@ -1,5 +1,5 @@
-import {canvasHandler} from './canvas_handler';
-import './common_styles.css';
+import {canvasHandler} from './handlers/canvas_handler';
+import './common/styles.css';
 
 document.addEventListener("DOMContentLoaded", async () => {
     canvasHandler.init();

@@ -1,28 +1,28 @@
 import results from '../../assets/result.json';
 
-export class DetectorService {
-    static getPositionsForFrame({timeOffsetSec}) {
+class DetectorService {
+    getPositionsForTimeOffset({timeOffsetSec}) {
         const timeOffsetMS = Math.trunc(timeOffsetSec * 1000);
         const entities = results['entities'];
-        const currentFrames = [];
+        const entitiesToDisplay = [];
 
         entities.forEach(entity => {
-            const positionsFromCurrentEntity = this._getPositionsFromFrames({
+            const positionsForCurrentEntity = this._getEntityPositionsForTimeOffset({
                 frames: entity.frames,
                 timeOffsetMS,
                 entity: entity.name
             });
 
-            positionsFromCurrentEntity && currentFrames.push({
+            positionsForCurrentEntity && entitiesToDisplay.push({
                 entityName: entity.name,
-                positions: positionsFromCurrentEntity
+                positions: positionsForCurrentEntity
             });
         });
 
-        return currentFrames;
+        return entitiesToDisplay;
     }
 
-    static _getPositionsFromFrames({frames, timeOffsetMS, entity}) {
+    _getEntityPositionsForTimeOffset({frames, timeOffsetMS, entity}) {
         const currentPosition = frames.filter((entity, index) => {
             if (timeOffsetMS < 1 && !entity['timeOffset']['nanos'] && !entity['timeOffset']['seconds']) {
                 return false;
@@ -59,6 +59,10 @@ export class DetectorService {
             return null;
         }
 
+        console.log(timeOffsetMS);
+
         return currentPosition[0]['normalizedBoundingBox'];
     }
 }
+
+export const detectorService = new DetectorService();
