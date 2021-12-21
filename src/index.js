@@ -1,8 +1,7 @@
-import {canvasHandler} from './canvas_handler';
-import '../assets/doggo.mp4';
+import {canvasHandler} from './handlers/canvas_handler';
+import './common/styles.css';
 
 document.addEventListener("DOMContentLoaded", async () => {
-    canvasHandler.doLoad();
+    canvasHandler.init();
 });
-
 

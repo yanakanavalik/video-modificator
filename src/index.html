@@ -1,35 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <style>
-        body {
-            background: black;
-            color: #CCCCCC;
-        }
-        
-        div {
-            float: left;
-            border: 1px solid #444444;
-            padding: 10px;
-            margin: 10px;
-            background: #3B3B3B;
-        }
-
-        #video {
-            width: 100%;
-        }
-
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video POC</title>
+    <link rel="stylesheet" href="main.css"/>
 </head>
-<body>
-<div id="content">
-    <video id="video" src="doggo.mp4" controls="true"></video>
-    <div>
-        <canvas id="c1" width="360" height="196"></canvas>
+<body class="body">
+<header class="header">Video POC</header>
+<figure id="videoContainer">
+    <video id="video" preload="metadata" controls>
+        <source src="turning_red.mp4" type="video/mp4"/>
+    </video>
+    <canvas id="canvas"></canvas>
+    <div id="video-controls" class="controls" data-state="hidden">
+        <button id="playpause" type="button" data-state="play"><img src="play.svg"
+                                                                    alt="play or pause player"/></button>
+        <button id="stop" type="button" data-state="stop"><img src="stop.svg"
+                                                               alt="stop player"/></button>
+        <div class="progress">
+            <progress id="progress" value="0" min="0">
+                <span id="progress-bar"></span>
+            </progress>
+        </div>
+        <button id="mute" type="button" data-state="mute"><img src="sound-on.svg"
+                                                               alt="mute or unmute"/></button>
+        <button id="volinc" type="button" data-state="volup"><img src="plus.svg"
+                                                                  alt="add volume"/></button>
+        <button id="voldec" type="button" data-state="voldown"><img src="minus.svg"
+                                                                    alt="reduce volume"/></button>
+        <button id="playbackRate" type="button" data-state="playbackRate">1.0</button>
     </div>
-</div>
-<script src="bundle.js"></script>
+
+</figure>
+
+
+<script id="shader-fs" type="x-shader/x-fragment">
+    varying mediump vec2 vDirection;
+    uniform sampler2D uSampler;
+
+    void main(void) {
+        gl_FragColor = texture2D(uSampler, vec2(vDirection.x * 0.5 + 0.5, vDirection.y * 0.5 + 0.5));
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<script id="shader-vs" type="x-shader/x-vertex">
+    attribute mediump vec2 aVertexPosition;
+    varying mediump vec2 vDirection;
+
+    void main( void ){
+        gl_Position = vec4(aVertexPosition, 1.0, 1.0) * 2.0;
+        vDirection = aVertexPosition;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<script id="shader-vs-img" type="x-shader/x-vertex">
+    attribute vec2 a_position;
+
+    uniform mat3 u_matrix;
+
+    varying vec2 v_texCoord;
+
+    uniform vec2 u_translation;
+
+    void main() {
+
+        gl_Position = vec4(u_matrix * vec3(a_position, 1), 1);
+
+
+        v_texCoord = vec2(a_position.s, 1.0 - a_position.t);
+
+    }
+
+
+
+
+
+
+
+
+
+
+</script>
+<script id="shader-fs-img" type="x-shader/x-fragment">
+    precision mediump float;
+
+    // our texture
+    uniform sampler2D u_image;
+
+    // the texCoords passed in from the vertex shader.
+    varying vec2 v_texCoord;
+
+    void main() {
+        gl_FragColor = texture2D(u_image, v_texCoord);
+    }
+
+
+
+
+
+
+
+
+
+
+</script>
+
 </body>
 </html>

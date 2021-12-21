@@ -1,34 +1,41 @@
-import '../../assets/man.png';
+import {entitiesNames} from '../common/entities_names';
 
-export class ImageService {
-    static imagePath = './man.png';
+import '../../assets/images/disney_changed.png';
+import '../../assets/images/peter_pan_changed.png';
+import '../../assets/images/alladin_changed.png';
+import '../../assets/images/nutcracker_changed.png';
+import '../../assets/images/stich.png';
 
-    static getImage({width = 0, height = 0}) {
+const entitiesNamesToImgPaths = {
+    [entitiesNames.posterAlladin]: './alladin_changed.png',
+    [entitiesNames.posterDisney]: './disney_changed.png',
+    [entitiesNames.posterNutcracker]: './nutcracker_changed.png',
+    [entitiesNames.posterPeterPan]: './peter_pan_changed.png',
+    [entitiesNames.stich]: './stich.png',
+};
+
+class ImageService {
+    loadedImages = {};
+
+    loadAllImages({width = 0, height = 0}) {
+        return Object.keys(entitiesNamesToImgPaths).map(key => this._loadImage({width, height, entityName: key}));
+    }
+
+    _loadImage({width = 0, height = 0, entityName}) {
         const img = new Image();
-        img.src = this.imagePath;
+        img.src = entitiesNamesToImgPaths[entityName];
+
         if (width === 0 || height === 0) {
+            this.loadedImages[entityName] = img;
             return img;
         } else {
             img.width = width;
             img.height = height;
         }
 
+        this.loadedImages[entityName] = img;
         return img;
     }
-
-    static getImageData(img) {
-        const canvas = document.createElement('canvas');
-        canvas.setAttribute("id", "ImagePreparation");
-
-        const ctx = canvas.getContext('2d');
-
-        canvas.width = img.width;
-        canvas.height = img.height;
-
-        ctx.drawImage(img, 0, 0);
-
-        return ctx.getImageData(
-            0, 0, img.width, img.height
-        ).data;
-    }
 }
+
+export const imageService = new ImageService();
