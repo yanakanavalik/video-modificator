@@ -33,7 +33,7 @@
         <button id="playbackRate" type="button" data-state="playbackRate">1.0</button>
     </div>
 </figure>
-<script id="shader-fs" type="x-shader/x-fragment">
+<script id="shader-fs-video" type="x-shader/x-fragment">
     varying mediump vec2 vDirection;
     uniform sampler2D uSampler;
 
@@ -44,7 +44,7 @@
 
 
 </script>
-<script id="shader-vs" type="x-shader/x-vertex">
+<script id="shader-vs-video" type="x-shader/x-vertex">
     attribute mediump vec2 aVertexPosition;
     varying mediump vec2 vDirection;
 
