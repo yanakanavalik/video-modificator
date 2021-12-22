@@ -41,7 +41,7 @@ class DetectorService {
         if (currentPosition.length < 1) {
             return null;
         }
-        console.log(timeOffsetMS)
+
         return currentPosition[0]['normalizedBoundingBox'];
     }
 }
