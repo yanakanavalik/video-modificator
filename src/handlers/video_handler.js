@@ -73,8 +73,8 @@ export class VideoHandler {
 
     _initShader() {
         this._attachShader({
-            fragmentShaderName: 'shader-fs',
-            vertexShaderName: 'shader-vs',
+            fragmentShaderName: 'shader-fs-video',
+            vertexShaderName: 'shader-vs-video',
             attributes: ['aVertexPosition'],
             uniforms: ['someVal', 'uSampler'],
         });
